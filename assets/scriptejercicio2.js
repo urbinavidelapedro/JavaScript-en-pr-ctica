@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function (event) {
       //seleccionar el color de fondo
       let colorDeFondo = button.style.backgroundColor;
+      //alert de comprobacion
       alert(colorDeFondo);
       let cajita = document.getElementById("caja");
       cajita.style.backgroundColor = colorDeFondo;
